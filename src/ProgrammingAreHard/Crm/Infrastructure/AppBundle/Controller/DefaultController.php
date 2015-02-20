@@ -9,6 +9,8 @@ class DefaultController extends Controller
 {
     public function indexAction($name)
     {
+        $authenticated = $this->get('security.authorization_checker')->isGranted('IS_AUTHENTICATED_FULLY');
+
         return new JsonResponse(['hello' => $name]);
     }
 }
