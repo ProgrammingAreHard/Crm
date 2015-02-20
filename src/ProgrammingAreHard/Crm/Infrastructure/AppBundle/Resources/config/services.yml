@@ -1,0 +1,3 @@
+services:
+    crm.exception_controller:
+        class: ProgrammingAreHard\Crm\Infrastructure\AppBundle\Controller\ExceptionController
