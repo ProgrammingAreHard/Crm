@@ -1,6 +1,6 @@
 <?php
 
-namespace ProgrammingAreHard\Crm\Infrastructure\AppBundle\Controller;
+namespace AppBundle\Controller;
 
 use ProgrammingAreHard\Crm\Model\Exception\DomainException;
 use Symfony\Component\HttpFoundation\JsonResponse;

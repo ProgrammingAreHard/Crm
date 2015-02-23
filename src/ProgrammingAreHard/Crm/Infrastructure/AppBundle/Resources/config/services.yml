@@ -1,9 +1,0 @@
-services:
-    crm.exception_controller:
-        class: ProgrammingAreHard\Crm\Infrastructure\AppBundle\Controller\ExceptionController
-
-    crm.in_memory_user_repository:
-        class: ProgrammingAreHard\Crm\Model\Repository\InMemoryUserRepository
-
-    crm.authenticator:
-        class: ProgrammingAreHard\Crm\Infrastructure\AppBundle\Security\ApiKeyAuthenticator

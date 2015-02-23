@@ -1,0 +1,7 @@
+app_homepage:
+    path:     /admin/hello/{name}
+    defaults: { _controller: AppBundle:Default:index }
+
+app_opcache_clear:
+    path: /_opcache_clear
+    defaults: { _controller: AppBundle:Default:clearCache }
