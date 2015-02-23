@@ -1,6 +1,6 @@
 <?php
 
-namespace ProgrammingAreHard\Crm\Model\Entity;
+namespace ProgrammingAreHard\Crm\Entity;
 
 
 class User

@@ -1,8 +1,8 @@
 <?php
 
-namespace ProgrammingAreHard\Crm\Model\Repository;
+namespace ProgrammingAreHard\Crm\Repository;
 
-use ProgrammingAreHard\Crm\Model\Entity\User;
+use ProgrammingAreHard\Crm\Entity\User;
 
 interface UserRepository
 {

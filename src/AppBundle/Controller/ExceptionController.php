@@ -2,7 +2,7 @@
 
 namespace AppBundle\Controller;
 
-use ProgrammingAreHard\Crm\Model\Exception\DomainException;
+use ProgrammingAreHard\Crm\Exception\DomainException;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\FlattenException;

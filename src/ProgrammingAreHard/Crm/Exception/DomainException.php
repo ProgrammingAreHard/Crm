@@ -1,6 +1,6 @@
 <?php
 
-namespace ProgrammingAreHard\Crm\Model\Exception;
+namespace ProgrammingAreHard\Crm\Exception;
 
 use Symfony\Component\HttpFoundation\Response;
 
